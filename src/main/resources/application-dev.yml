@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  tomcat:
+    threads:
+      max: 200
+    accept-count: 1000
+  servlet:
+    context-path: /activiti
+spring:
+  application:
+    name: "activiti-practice-dev"
+
+
+test-config:
+  name: luffy-dev
+  password: 135246
